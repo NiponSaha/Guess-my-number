@@ -1,6 +1,5 @@
 'use strict';
 
-/*  03. ============== Clean Code using Refactory Technique ============== */
 let secrtNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highScore = 0;
@@ -68,4 +67,3 @@ document.querySelector('.again').addEventListener('click', function () {
     document.querySelector('body').style.backgroundColor = '#222';
     document.querySelector('.number').style.width = '15rem';
 });
-*/
